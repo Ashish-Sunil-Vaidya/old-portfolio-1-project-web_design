@@ -1,0 +1,193 @@
+
+.Avatar {
+    width: 150px;
+    border-radius: 50%;
+    padding-bottom: 0;
+}
+
+.Name {
+    color: #00a2ed;
+    text-align: center;
+    font-size: 25px;
+}
+
+.Prof {
+    text-align: center;
+    color: #00a2ed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.w3-sidebar
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.close_open :hover {
+    background-color: #00a2ed;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition: 0.5s;
+
+}
+
+
+.closeButton {
+    border: solid #00a2ed;
+    background-color: white;
+    color: #00a2ed;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    
+}
+.closeButton:hover {
+    box-shadow: none;
+    color: white;
+    border: none;
+    background-color: #00a2ed;
+}
+
+.setColor {
+    background-color: #00a2ed;
+    color: white;
+    
+    border-radius: 5px;
+}
+
+.menuButton:hover
+{
+    background-color: #00a2ed;
+    color: white;
+}
+
+.menuButton
+{
+    background-color: white;
+    font-size: 20px;
+    color: #00a2ed;
+    border: solid #00a2ed;
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+}
+
+.homeinContent {
+    color: #00a2ed;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 10%;
+    font-size: 50px;
+    height: 95vh;
+}
+
+.abtmeinContent {
+    height: 90vh;
+    justify-content: center;
+    text-align: center;
+    color: #00a2ed;
+    font-size: 30px;
+    padding: 10%;
+}
+
+.auto-type{
+    font-size: 20px;
+}
+
+.educationinContent {
+
+    color: #00a2ed;
+    
+}
+
+div.gallery {
+    margin: 5px;
+
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    box-shadow: 0 4px 8px 0 rgba(158, 127, 244, 0.35), 0 6px 20px 0 rgba(158, 127, 244, 0.35);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.skillsinContent
+{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    color: #00a2ed;
+    font-size: 30px;
+}
+
+
+.projectincontent
+{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    color: #00a2ed;
+    font-size: 30px;
+}
+
+.feedbackincontent
+{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    color: #00a2ed;
+}
+
+.contactsincontent
+{
+    color: #00a2ed;
+    text-align: center;
+}
+
+.progressContainer
+{
+    width:50%;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.cbar{
+    height: 19px;
+    background-color:#00a2ed;
+    border-radius: 30px;
+    animation-name: cprog;
+    animation: cprog 3s ease-in 1;
+}
+
+@keyframes cprog {
+    from
+    {
+        width: 0;
+    }
+
+
+}
+
+
